@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="body">
+  <section *ngIf = "user" class="user-box">
+      <app-my-avatar [url] = user.avatar_url></app-my-avatar>
+      <app-my-description [description] = "description"></app-my-description>
+  </section>
+</div>
+
+<router-outlet></router-outlet>

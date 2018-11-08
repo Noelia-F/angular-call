@@ -1,0 +1,11 @@
+
+.image-box{
+    padding: 20px;
+}
+.image{
+    max-width: 80%;
+    max-width: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}

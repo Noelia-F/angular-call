@@ -1,0 +1,16 @@
+.body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user-box{
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 11;
+    border: 1px solid #e8e8e8;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
